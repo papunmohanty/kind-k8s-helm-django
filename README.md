@@ -69,3 +69,19 @@ Following command will create a new helm chart
 $ cd .helm
 $ helm create example-app ./helm
 ```
+
+## Verify the Helm Chart template is valid
+```sh
+$ helm template example-app ./helm/example-app
+or 
+$ cd .helm
+$ helm template example-app example-app
+```
+
+## Install the Helm Chart
+```sh
+$ helm install example-app ./helm/example-app
+or
+$ cd .helm
+$ helm install example-app example-app
+```

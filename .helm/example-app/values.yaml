@@ -1,4 +1,6 @@
 deployment:
   image: "papunmohanty/example-app"
   tag: "latest"
+  replicaCount: 2
+  pullPolicy: Always
 name: example-app
