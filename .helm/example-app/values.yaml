@@ -1,0 +1,4 @@
+deployment:
+  image: "papunmohanty/example-app"
+  tag: "latest"
+name: example-app
