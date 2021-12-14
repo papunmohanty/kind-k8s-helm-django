@@ -12,9 +12,7 @@ We can have a Helm Chart for a micro service or any software like Redis, MySQL, 
 ## Creating Single node Kubernetes Cluster using Kind
 ```sh
 $ kind create cluster --name my-cluster  # This will pull latest `kindest` image
-```
-    or
-```sh
+or
 $ kind create cluster --name my-cluster --image kindest/node:v1.19.1  # Specify specific kindest image
 ```
 To check the cluster details use the following commands
