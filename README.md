@@ -34,6 +34,8 @@ $ kind delete cluster --name my-cluster
 ## Creating clusters through configs
 ```sh
 $ kind create cluster --config .kind/multi-node.yaml
+or
+$ kind create cluster --name my-cluster --config .kind/multi-node.yaml
 ```
 
 To verify
